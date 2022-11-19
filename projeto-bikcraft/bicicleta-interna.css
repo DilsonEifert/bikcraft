@@ -14,18 +14,11 @@
     width: 560px;
 }
 
-.desc{
-}
-
 .imagens>img:nth-child(1){
     margin-bottom: 14px;
 }
 .imagens>img:nth-child(2){
     margin-right: 14px;
-}
-
-.info_1{
-
 }
 
 .info_1>p{
@@ -244,9 +237,6 @@
 .seguro{
     height: 636px;
     padding-top: 120px;
-}
-.seguro_outer{
-    
 }
 
 .seguro_conteudo{

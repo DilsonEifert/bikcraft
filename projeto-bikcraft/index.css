@@ -1,5 +1,4 @@
-
-@import "seguros.css";
+@import url("seguros.css");
 
 .sob-medida{
     height: 800px;
@@ -89,9 +88,6 @@
     margin-top: 40px;
 }
 
-.escolha_item{
-
-}
 
 .escolha_item>img{
     width: 460px;
