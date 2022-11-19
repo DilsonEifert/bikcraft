@@ -1,0 +1,255 @@
+.contato-wrapper{
+    display: flex;
+    width: 1160px;
+    height: 576px;
+}
+.loja-online{
+    width: 460px;
+    background-color: var(--c12);
+}
+.loja-online-wrapper{
+    width: 213px;
+    margin: 60px 0 0 60px;
+}
+.loja-online-wrapper h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--w);
+}
+
+.loja-online-endereco{
+    margin-top: 60px;
+    display: flex;
+}
+
+.loja-online-endereco-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-color: aqua;
+}
+
+.loja-online-endereco-lista p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--c4);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.loja-online-email{
+    display: flex;
+    margin-top: 32px;
+}
+
+.loja-online-email-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-color: aqua;
+}
+
+.loja-online-email-lista p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--c4);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.loja-online-telefone{
+    display: flex;
+    margin-top: 32px;
+}
+
+.loja-online-telefone-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-color: aqua;
+}
+
+.loja-online-telefone-lista p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--c4);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.midias-sociais{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.formulario{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 700px;
+    background-color: var(--w);
+}
+
+.formulario-wrapper{
+    width: 600px;
+    margin: 60px 0 0 60px;
+}
+
+.formulario-sec-1{
+    display: flex;
+}
+
+.formulario-sec-1-a{
+    margin-right: 20px;
+}
+
+.formulario-sec-1 input,
+.formulario-sec-2 input
+{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--c1);
+    width: 280px;
+    height: 48px;
+    color: var(--c7);
+}
+.formulario-sec-2 input, .formulario-sec-2 textarea{
+    width: 580px;
+}
+
+.formulario-sec-2 textarea{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--c1);
+    height: 160px;
+    text-align: left;
+    color: var(--c7);
+}
+
+.formulario-sec-2 label{
+    display: block;
+    margin-top: 20px;
+}
+
+.formulario-wrapper>form>input[type="button"]{
+    width: 236px;
+    height: 56px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(255,191,0,1) 0%, rgba(242,165,12,1) 100%);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--p5);
+    text-transform: uppercase;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(247,247,247,1) 70%, rgba(17,17,17,1) 70%);
+}
+.main-conteudo{
+    margin-top: 80px;
+}
+.lojas-locais{
+    margin-top: 120px;
+}
+
+.lojas-locais-wrapper{
+    width: 1160px;
+    height: 644px;
+    margin: 0 auto;
+}
+
+.lojas-locais-wrapper>h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.lojas-locais-wrapper>h2::after{
+    content: ".";
+    color: var(--p1);
+}
+
+.loc-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.rio-loc,
+.sao-loc
+{
+    width: 560px;
+    height: 512px;
+
+}
+
+.rio-loc>.map,
+.sao-loc>.map{
+    height: 260px;
+    width: 560px;
+}
+
+.rio-loc>.desc,
+.sao-loc>.desc{
+    height: 252px;
+    width: 560px;
+    background-color: var(--w);
+}
+
+.loc-wrapper .desc {
+    width: 560px;
+    padding-top: 32px;
+}
+
+.loc-wrapper .desc h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.loc-wrapper .desc h3::before{
+    content: " ";
+    display: inline-block;
+    margin-right: 12px;
+    width: 12px;
+    height: 8px;
+    background-color: var(--p1);
+    vertical-align: 15%;
+}
+
+.desc-wrapper{
+    margin-left: 36px;
+}
+
+.desc-wrapper>p{
+    margin-top: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.desc-wrapper>p::before{
+    content: " ";
+    display: inline-block;
+    margin-right: 12px;
+    width: 12px;
+    height: 8px;
+    background-color: var(--p1);
+    vertical-align: 15%;
+}
+
+.desc-info{
+    margin-top: 32px;
+    margin-left: 24px;
+    display: flex;
+}
+
+.desc-info > div{
+    border-left: 1px solid var(--c4);
+    margin-right: 60px;
+    padding-left: 12px;
+}

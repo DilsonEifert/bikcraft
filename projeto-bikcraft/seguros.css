@@ -1,0 +1,230 @@
+.main-conteudo, .main-conteudo-container{
+    width: auto;
+    margin: 0px;
+}
+.planos{
+    background-color: var(--c11);
+    height: 664px;
+    padding-top: 60px;
+}
+
+.planos-wrapper{
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plano-prata{
+    background-color: var(--c12);
+    width: 560px;
+    height: 396px;
+}
+
+.plano-prata-wrapper, .plano-ouro-wrapper{
+    margin: 32px 32px 32px 58px;
+}
+
+.plano-prata-header, .plano-ouro-header{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    margin-left: 20px;
+}
+
+.plano-prata-header>.plano-prata-nome>h2, .plano-ouro-header>.plano-ouro-nome>h2{
+    font-family: 'Poppins', sans-serif;
+    color: var(--c6);
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.plano-ouro-header>.plano-ouro-nome>h2{
+    color: var(--p1);
+}
+
+.plano-prata-header>.plano-prata-desc>p:nth-child(1), .plano-ouro-header>.plano-ouro-desc>p:nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--w);
+}
+
+.plano-prata-header>.plano-prata-desc>p:nth-child(2), .plano-ouro-header>.plano-ouro-desc>p:nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--c6);
+    text-align: end;
+}
+
+.plano-prata-button>button, .plano-ouro-button>button{
+    width: 185px;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--c10);
+    color: var(--c4);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.plano-ouro-button>button{
+    background: linear-gradient(180deg, rgba(255,191,0,1) 0%, rgba(242,165,12,1) 100%);
+    color: var(--p5);
+}
+
+.plano-desc{
+    margin-top: 40px;
+}
+.plano-desc>p{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--w);
+}
+
+.plano-desc>p::before{
+    content: "\2713";
+    color: var(--p1);
+    margin-right: 8px;
+}
+
+.plano-ouro{
+    background-color: var(--c12);
+    width: 560px;
+    height: 484px;
+
+}
+
+.vantagens{
+    height: 748px;
+    background-color: var(--c12);
+    padding-top: 120px;
+}
+
+.vantagens-wrapper{
+    margin-left: 220px;
+}
+
+.vantagens-wrapper>h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    color: var(--w);
+}
+
+.vantagens-wrapper>h2::after{
+    content: ".";
+    color: var(--p1);
+}
+
+.vantagens-lista{
+    margin-top: 92px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.vantagens-lista-item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: var(--w);
+}
+    
+
+.vantagens-lista-item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--c6);
+    margin-top: 8px;
+}
+
+.perguntas{
+    height: 912px;
+    background-color: var(--w);
+    padding-top: 120px;
+}
+
+.perguntas-wrapper{
+    margin: 0 auto;
+    height: 672px;
+    width: 1160px;
+}
+
+.perguntas-wrapper>h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    color: var(--c11);
+}
+
+.perguntas-wrapper>h2::after{
+    content: ".";
+    color: var(--p1);
+}
+
+.perguntas-lista{
+    margin-top: 88px;
+}
+
+.perguntas-lista-item:nth-child(odd){
+    height: 64px;
+    background-color: var(--c1);
+}
+
+.perguntas-lista-item:nth-child(1){
+    height: 128px;
+    background-color: var(--c1);
+}
+
+.perguntas-lista-item>h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 64px;
+    margin-left: 40px;
+}
+
+.perguntas-lista-item>h3::before{
+    content: " ";
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    background-color: var(--p1);
+}
+
+.perguntas-lista-item>h3>img{
+    float: right;
+    margin-top: 29px;
+    margin-right: 19px;
+}
+
+.perguntas-lista-item>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 60px;
+}
+
+footer{
+    margin: 0;
+}

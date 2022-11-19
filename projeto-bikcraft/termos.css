@@ -1,0 +1,19 @@
+.main-conteudo h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--c11);
+    margin-top: 48px;
+}
+
+.main-conteudo p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c10);
+    margin-top: 20px;
+}
